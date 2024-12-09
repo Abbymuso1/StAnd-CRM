@@ -1,0 +1,2 @@
+[2024-11-24T04:06:07.614808+01:00] authLogger.INFO: Ended Local session for user {"username":"Church Admin"} {"url":"/standcrm/session/end","remote_ip":"::1","correlation_id":"6742981f961a1","context":{"ContextClass":"","ContextMethod":"endSession"}}
+[2024-11-24T04:06:58.265664+01:00] authLogger.INFO: Ended Local session for user {"username":"Snow Ariana White"} {"url":"/standcrm/session/end","remote_ip":"::1","correlation_id":"6742985240dcb","context":{"ContextClass":"","ContextMethod":"endSession"}}

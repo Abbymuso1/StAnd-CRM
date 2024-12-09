@@ -1,0 +1,22 @@
+[24-Nov-2024 05:39:14 Africa/Nairobi] PHP Fatal error:  Uncaught Twig\Error\LoaderError: The "../templates/email" directory does not exist ("C:\xampp\htdocs\standcrm\../templates/email"). in C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php:99
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php(85): Twig\Loader\FilesystemLoader->addPath('../templates/em...', '__main__')
+#1 C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php(48): Twig\Loader\FilesystemLoader->setPaths(Array)
+#2 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\BaseEmail.php(29): Twig\Loader\FilesystemLoader->__construct('../templates/em...')
+#3 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\users\BaseUserEmail.php(16): ChurchCRM\Emails\BaseEmail->__construct(Array)
+#4 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\users\NewAccountEmail.php(14): ChurchCRM\Emails\users\BaseUserEmail->__construct(Object(ChurchCRM\model\ChurchCRM\User))
+#5 C:\xampp\htdocs\standcrm\UserEditor.php(130): ChurchCRM\Emails\users\NewAccountEmail->__construct(Object(ChurchCRM\model\ChurchCRM\User), 'DZNpdg')
+#6 {main}
+  thrown in C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php on line 99
+[24-Nov-2024 05:39:20 Africa/Nairobi] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '4' for key 'PRIMARY' in C:\xampp\htdocs\standcrm\Include\Functions.php:175
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\Include\Functions.php(175): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 C:\xampp\htdocs\standcrm\UserEditor.php(127): RunQuery('INSERT INTO use...')
+#2 {main}
+  thrown in C:\xampp\htdocs\standcrm\Include\Functions.php on line 175
+[24-Nov-2024 05:39:33 Africa/Nairobi] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '4' for key 'PRIMARY' in C:\xampp\htdocs\standcrm\Include\Functions.php:175
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\Include\Functions.php(175): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 C:\xampp\htdocs\standcrm\UserEditor.php(127): RunQuery('INSERT INTO use...')
+#2 {main}
+  thrown in C:\xampp\htdocs\standcrm\Include\Functions.php on line 175

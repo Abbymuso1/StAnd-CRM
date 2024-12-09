@@ -1,0 +1,70 @@
+[27-Nov-2024 16:47:23 Africa/Nairobi] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND per_Gender = 2' at line 1 in C:\xampp\htdocs\standcrm\Include\Functions.php:175
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\Include\Functions.php(175): mysqli_query(Object(mysqli), 'SELECT per_ID a...')
+#1 C:\xampp\htdocs\standcrm\QueryView.php(179): RunQuery('SELECT per_ID a...')
+#2 C:\xampp\htdocs\standcrm\QueryView.php(43): DoQuery()
+#3 {main}
+  thrown in C:\xampp\htdocs\standcrm\Include\Functions.php on line 175
+[27-Nov-2024 17:19:42 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in C:\xampp\htdocs\standcrm\FundRaiserEditor.php:158
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\standcrm\FundRaiserEditor.php on line 158
+[27-Nov-2024 17:20:08 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Typed property ChurchCRM\Reports\PdfFRCatalogReport::$fundraiser must not be accessed before initialization in C:\xampp\htdocs\standcrm\Reports\FRCatalog.php:42
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\Reports\FRCatalog.php(31): ChurchCRM\Reports\PdfFRCatalogReport->addPage()
+#1 C:\xampp\htdocs\standcrm\Reports\FRCatalog.php(63): ChurchCRM\Reports\PdfFRCatalogReport->__construct(Object(ChurchCRM\model\ChurchCRM\FundRaiser))
+#2 {main}
+  thrown in C:\xampp\htdocs\standcrm\Reports\FRCatalog.php on line 42
+[27-Nov-2024 17:20:55 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in C:\xampp\htdocs\standcrm\FundRaiserEditor.php:158
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\standcrm\FundRaiserEditor.php on line 158
+[27-Nov-2024 17:21:02 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in C:\xampp\htdocs\standcrm\FundRaiserEditor.php:158
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\standcrm\FundRaiserEditor.php on line 158
+[27-Nov-2024 17:21:06 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Typed property ChurchCRM\Reports\PdfFRCatalogReport::$fundraiser must not be accessed before initialization in C:\xampp\htdocs\standcrm\Reports\FRCatalog.php:42
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\Reports\FRCatalog.php(31): ChurchCRM\Reports\PdfFRCatalogReport->addPage()
+#1 C:\xampp\htdocs\standcrm\Reports\FRCatalog.php(63): ChurchCRM\Reports\PdfFRCatalogReport->__construct(Object(ChurchCRM\model\ChurchCRM\FundRaiser))
+#2 {main}
+  thrown in C:\xampp\htdocs\standcrm\Reports\FRCatalog.php on line 42
+[27-Nov-2024 17:23:22 Africa/Nairobi] PHP Fatal error:  Uncaught TypeError: AlternateRowStyle(): Argument #1 ($sCurrentStyle) must be of type string, null given, called in C:\xampp\htdocs\standcrm\CartToFamily.php on line 187 and defined in C:\xampp\htdocs\standcrm\Include\Functions.php:404
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\CartToFamily.php(187): AlternateRowStyle(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\standcrm\Include\Functions.php on line 404
+[27-Nov-2024 22:24:49 Africa/Nairobi] PHP Fatal error:  Uncaught Twig\Error\LoaderError: The "../templates/email" directory does not exist ("C:\xampp\htdocs\standcrm\../templates/email"). in C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php:99
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php(85): Twig\Loader\FilesystemLoader->addPath('../templates/em...', '__main__')
+#1 C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php(48): Twig\Loader\FilesystemLoader->setPaths(Array)
+#2 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\BaseEmail.php(29): Twig\Loader\FilesystemLoader->__construct('../templates/em...')
+#3 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\users\BaseUserEmail.php(16): ChurchCRM\Emails\BaseEmail->__construct(Array)
+#4 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\users\NewAccountEmail.php(14): ChurchCRM\Emails\users\BaseUserEmail->__construct(Object(ChurchCRM\model\ChurchCRM\User))
+#5 C:\xampp\htdocs\standcrm\UserEditor.php(130): ChurchCRM\Emails\users\NewAccountEmail->__construct(Object(ChurchCRM\model\ChurchCRM\User), 'oWwKc4')
+#6 {main}
+  thrown in C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php on line 99
+[27-Nov-2024 22:41:06 Africa/Nairobi] PHP Fatal error:  Uncaught Twig\Error\LoaderError: The "../templates/email" directory does not exist ("C:\xampp\htdocs\standcrm\../templates/email"). in C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php:99
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php(85): Twig\Loader\FilesystemLoader->addPath('../templates/em...', '__main__')
+#1 C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php(48): Twig\Loader\FilesystemLoader->setPaths(Array)
+#2 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\BaseEmail.php(29): Twig\Loader\FilesystemLoader->__construct('../templates/em...')
+#3 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\users\BaseUserEmail.php(16): ChurchCRM\Emails\BaseEmail->__construct(Array)
+#4 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\users\NewAccountEmail.php(14): ChurchCRM\Emails\users\BaseUserEmail->__construct(Object(ChurchCRM\model\ChurchCRM\User))
+#5 C:\xampp\htdocs\standcrm\UserEditor.php(130): ChurchCRM\Emails\users\NewAccountEmail->__construct(Object(ChurchCRM\model\ChurchCRM\User), 'SW3UlM')
+#6 {main}
+  thrown in C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php on line 99
+[27-Nov-2024 22:47:03 Africa/Nairobi] PHP Fatal error:  Uncaught Twig\Error\LoaderError: The "../templates/email" directory does not exist ("C:\xampp\htdocs\standcrm\../templates/email"). in C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php:99
+Stack trace:
+#0 C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php(85): Twig\Loader\FilesystemLoader->addPath('../templates/em...', '__main__')
+#1 C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php(48): Twig\Loader\FilesystemLoader->setPaths(Array)
+#2 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\BaseEmail.php(29): Twig\Loader\FilesystemLoader->__construct('../templates/em...')
+#3 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\users\BaseUserEmail.php(16): ChurchCRM\Emails\BaseEmail->__construct(Array)
+#4 C:\xampp\htdocs\standcrm\ChurchCRM\Emails\users\NewAccountEmail.php(14): ChurchCRM\Emails\users\BaseUserEmail->__construct(Object(ChurchCRM\model\ChurchCRM\User))
+#5 C:\xampp\htdocs\standcrm\UserEditor.php(130): ChurchCRM\Emails\users\NewAccountEmail->__construct(Object(ChurchCRM\model\ChurchCRM\User), 'injf8m')
+#6 {main}
+  thrown in C:\xampp\htdocs\standcrm\vendor\twig\twig\src\Loader\FilesystemLoader.php on line 99
+[27-Nov-2024 22:57:07 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function setJoin() on null in C:\xampp\htdocs\standcrm\WhyCameEditor.php:46
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\standcrm\WhyCameEditor.php on line 46
